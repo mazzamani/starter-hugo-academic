@@ -7,7 +7,7 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 65
+weight: 5
 
 title: Projects
 subtitle: ''
@@ -29,6 +29,8 @@ content:
     tag: '*'
   - name: Deep Learning
     tag: Deep Learning
+  - name: Robotics
+    tag: Robotics    
   - name: Other
     tag: Demo
 

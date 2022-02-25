@@ -5,15 +5,18 @@ widget: pages
 
 # This file represents a page section.
 headless: true
+active: true 
 
 # Order that this section appears on the page.
-weight: 90
+weight: 3
 
 title: Recent Publications
 subtitle: ''
 
 content:
   # Filter on criteria
+  page_type: publication
+
   filters:
     folders:
       - publication
@@ -25,14 +28,14 @@ content:
     exclude_future: false
     exclude_past: false
   # Choose how many pages you would like to display (0 = all pages)
-  count: 0
+  count: 7
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 design:
-  # Choose a view for the listings:
-  view: citation
+  # Choose a view for the listings: List, Compact, Card, Citation
+  view: Compact
   columns: '2'
 ---
 
